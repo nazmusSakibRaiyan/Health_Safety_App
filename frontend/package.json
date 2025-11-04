@@ -1,0 +1,49 @@
+{
+  "name": "health-tracking-app",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-google-signin/google-signin": "^10.1.0",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/stack": "^6.3.20",
+    "@tanstack/react-query": "^5.17.0",
+    "axios": "^1.6.2",
+    "expo": "^54.0.22",
+    "expo-auth-session": "~7.0.8",
+    "expo-calendar": "~15.0.7",
+    "expo-crypto": "~15.0.7",
+    "expo-device": "~8.0.9",
+    "expo-notifications": "^0.32.12",
+    "expo-router": "~6.0.14",
+    "expo-secure-store": "~15.0.7",
+    "expo-status-bar": "~3.0.8",
+    "expo-web-browser": "~15.0.9",
+    "nativewind": "^2.0.11",
+    "react": "^19.1.0",
+    "react-native": "^0.81.5",
+    "react-native-fbsdk-next": "^12.1.2",
+    "react-native-gesture-handler": "~2.28.0",
+    "react-native-otp-entry": "^1.0.0",
+    "react-native-paper": "^5.11.3",
+    "react-native-reanimated": "~4.1.1",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-vector-icons": "^10.0.3",
+    "react-native-worklets": "^0.5.1",
+    "react-native-worklets-core": "^1.6.2",
+    "zustand": "^4.5.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@types/react": "~19.1.10",
+    "tailwindcss": "3.3.2",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}

@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Health Tracking",
+    "slug": "health-tracking-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.healthtracking.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.healthtracking.app",
+      "permissions": [
+        "CAMERA",
+        "READ_CALENDAR",
+        "WRITE_CALENDAR",
+        "ACTIVITY_RECOGNITION",
+        "BODY_SENSORS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "scheme": "healthtracking",
+    "extra": {
+      "apiUrl": "http://localhost:5000/api",
+      "googleClientId": "YOUR_GOOGLE_CLIENT_ID",
+      "facebookAppId": "YOUR_FACEBOOK_APP_ID"
+    }
+  }
+}
